@@ -1,4 +1,4 @@
-package com.example.ctse_flutter
+package com.chamodshehanka.ctse_assignment
 
 import io.flutter.embedding.android.FlutterActivity
 
