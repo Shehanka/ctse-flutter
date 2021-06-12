@@ -1,8 +1,11 @@
+import 'package:ctse_flutter/screens/splash_screen/spash_screen.dart';
 import 'package:flutter/material.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
+      case '/':
+        return MaterialPageRoute(builder: (_) => SplashScreen());
       default:
         return _errorRoute();
     }
