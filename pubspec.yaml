@@ -1,5 +1,5 @@
 name: ctse_flutter
-description: A new Flutter project.
+description: Fantastic Node App
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -25,6 +25,7 @@ dependencies:
     sdk: flutter
   firebase_core: any
   cloud_firestore: any
+  firebase_auth: any
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
