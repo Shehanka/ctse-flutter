@@ -29,6 +29,6 @@ class Note {
   Note.fromMap(Map<String, dynamic> map) {
     this._id = map['id'];
     this._title = map['title'];
-    // this._body = map('body');
+    this._body = map['body'];
   }
 }
